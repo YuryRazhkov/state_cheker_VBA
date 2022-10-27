@@ -75,7 +75,7 @@ Public Sub vbajson()
         Print #lgs, cur_date; "EGR is not responding  " & http.Status
         Close lgs
     
-        MsgBox (EGR is not responding. Try later " & http.Status)
+        MsgBox ("EGR is not responding. Try later " & http.Status)
         Exit Sub
     End If
         
